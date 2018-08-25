@@ -10,7 +10,7 @@ Your integrated development environment (IDE) is a very personal part of you doi
 #### `~/.editorconfig`
 We won't enforce the editor you choose to use. We do ask that you install a plugin for it called [Editor Config](https://editorconfig.org/). This plugin allows us to set some basic syntax standards across a wide range of languages for our team. It ensures basic syntax like tabs vs spaces (we use spaces) are set from the get go.
 
-You can find the `.editorconfig` in this repository. The easiest way to get this working is to use it in your user folder. All you have to do is run this command: `curl https://raw.github.com/Brandography/.editorconfig/master/.editorconfig > ~/.editorconfig`
+You can find our `.editorconfig` file in [our team repository](https://github.com/Brandography/.editorconfig/). The easiest way to get this working is to add it in your home folder. All you have to do is run this command: `curl https://raw.github.com/Brandography/.editorconfig/master/.editorconfig > ~/.editorconfig`
 
 ## Project Management
 ### Trello
