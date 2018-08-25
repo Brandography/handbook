@@ -21,7 +21,7 @@ You can find our `.editorconfig` file in [our .editorconfig repository](https://
 #### WordPress
 We do a lot of work with WordPress themes and plugins. Some of that work may be from developers outside our team. When crafting _new_ work for WordPress, stick to the [WordPress Coding Standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/), but please ignore their section on [indentation](https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/#indentation) (we use spaces).
 
-For WordPress theme development, use [Theme Check](https://wordpress.org/plugins/theme-check/). It will check your theme for everything from bad practices to missing requirements. Additionally, use the [Theme Unit Test Data](https://codex.wordpress.org/Theme_Unit_Test) to ensure that all content types are styled and handled correctly in the theme.
+For WordPress theme development, use [Theme Check](https://wordpress.org/plugins/theme-check/). It will check your theme for everything from bad practices to missing requirements. Additionally, use the [Theme Unit Test Data](https://codex.wordpress.org/Theme_Unit_Test) to import and check all major content types, embeded content, image sizes, etc are styled and handled correctly in your theme.
 
 ## Project Management
 ### Trello
