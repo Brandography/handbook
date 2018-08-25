@@ -23,6 +23,18 @@ We do a lot of work with WordPress themes and plugins. Some of that work may be 
 
 For WordPress theme development, use [Theme Check](https://wordpress.org/plugins/theme-check/). It will check your theme for everything from bad practices to missing requirements. Additionally, use the [Theme Unit Test Data](https://codex.wordpress.org/Theme_Unit_Test) to import and check all major content types, embeded content, image sizes, etc are styled and handled correctly in your theme.
 
+## Security
+Security is one of the most important things to get right in software development. We take a common sense approach to securing our software and workspace.
+
+### Don't Commit Secrets
+Never commit passwords, private API keys, `.env` files, or other credentials into version control. All of your credentials should be loaded from the environment variables set in the operating system during deployment.
+
+### Encrypt Your Hard Drive
+Having an encrypted drive is common sense. Laptops are prone to being stolen or lost. Having an encrypted drive ensures your data or our client's data cannot be decoded. For MacOS users, you just need to turn on FileVault.
+
+### Lock Your Computer
+When you walk away from your desk, always lock your computer. The time it takes to login again is miniscule compared to any type of unauthorized access to your system.
+
 ## Project Management
 ### Trello
 We use [Trello](https://trello.com) to manage projects and tasks. You will need a Trello account.
