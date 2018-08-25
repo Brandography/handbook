@@ -1,5 +1,5 @@
 # Development at Brandography
-At Brandography, we have some of the best nerds around. We love [GIFs](https://media.giphy.com/media/tIjdrTgFkT3kig4DY0/giphy.gif), [dogs](https://cdnbrandog2-c7f.kxcdn.com/wp-content/uploads/2014/01/Roufous-540x540-1.jpg), [tech news](https://news.ycombinator.com/), and [beer](https://media1.giphy.com/media/4JOaSVSBUczAY/giphy.gif). If you're wondering what our developers do or might be interested in working on our team, here's how we work.
+At Brandography, we have some of the best nerds around. We love [GIFs](https://media.giphy.com/media/tIjdrTgFkT3kig4DY0/giphy.gif), [dogs](https://cdnbrandog2-c7f.kxcdn.com/wp-content/uploads/2014/01/Roufous-540x540-1.jpg), [tech news](https://news.ycombinator.com/), and [beer](https://media1.giphy.com/media/4JOaSVSBUczAY/giphy.gif). If you're wondering what our developers do, or you might be interested in working on our team, here's how we work.
 
 ## Technology Is Everywhere
 We don't lock our developers in a small, dark room. Our team is filled with passionate technologists whose interests expand beyond our doors. You are involved at every stage of a project's lifecycle, and we look to you for guidance in its technical direction.
@@ -41,7 +41,7 @@ You will need Atlassian/BitBucket and GitHub accounts to access all repos. You s
 
 ### Git Guidelines
 You'll only find a couple rules when it comes to Git:
-1. Never force push (aka yolo) onto develop or master branches.
+1. Never force push (aka yolo) onto `develop` or `master` branches.
 2. Only rebase your local history.
 
 Specific Git flows vary by project, but we generally like to have one `develop` branch that contains working, staged code to be deployed, and a `master` branch that contains the code in the production environment.
