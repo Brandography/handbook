@@ -12,6 +12,17 @@ We won't enforce the editor you choose to use. We do ask that you install a plug
 
 You can find our `.editorconfig` file in [our .editorconfig repository](https://github.com/Brandography/.editorconfig/). The easiest way to get this working is to add it in your home folder. All you have to do is run this command: `curl https://raw.github.com/Brandography/.editorconfig/master/.editorconfig > ~/.editorconfig`
 
+### Style Guides
+- [PHP](https://www.php-fig.org/psr/psr-2/)
+- [CSS/SCSS](https://github.com/airbnb/css/blob/master/README.md)
+- [JavaScript](https://github.com/airbnb/javascript/blob/master/README.md)
+- [TypeScript](https://github.com/basarat/typescript-book/blob/master/docs/styleguide/styleguide.md)
+
+#### WordPress
+We do a lot of work with WordPress themes and plugins. Some of that work may be from developers outside our team. When crafting _new_ work for WordPress, stick to the [WordPress Coding Standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/), but please ignore their section on [indentation](https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/#indentation) (we use spaces).
+
+For WordPress theme development, use [Theme Check](https://wordpress.org/plugins/theme-check/). It will check your theme for everything from bad practices to missing requirements. Additionally, use the [Theme Unit Test Data](https://codex.wordpress.org/Theme_Unit_Test) to ensure that all content types are styled and handled correctly in the theme.
+
 ## Project Management
 ### Trello
 We use [Trello](https://trello.com) to manage projects and tasks. You will need a Trello account.
