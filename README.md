@@ -1,6 +1,11 @@
 # Development at Brandography
 At Brandography, we have some of the best nerds around. We love [GIFs](https://media.giphy.com/media/tIjdrTgFkT3kig4DY0/giphy.gif), [dogs](https://cdnbrandog2-c7f.kxcdn.com/wp-content/uploads/2014/01/Roufous-540x540-1.jpg), [tech news](https://news.ycombinator.com/), and [beer](https://media1.giphy.com/media/4JOaSVSBUczAY/giphy.gif). If you're wondering what our developers do or might be interested in working on our team, here's how we work.
 
+## Technology Is Everywhere
+We don't lock our developers in a small, dark room. Our team is filled with passionate technologists whose interests expand beyond our doors. You are involved at every stage of a project's lifecycle, and we look to you for guidance in its technical direction.
+
+We foster a culture of learning through the challenges in our client projects. Thinking of taking a course or getting a book about a new technology? Talk to us. We can help with that.
+
 ## Code Standards
 Our team has collected some basic syntax tools and style guide references. We use these every day to build quality in our craft.
 
