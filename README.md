@@ -30,7 +30,7 @@ Security is one of the most important things to get right in software developmen
 Never commit passwords, private API keys, `.env` files, or other credentials into version control. All of your credentials should be loaded from the environment variables set in the operating system during deployment.
 
 ### Encrypt Your Hard Drive
-Having an encrypted drive is common sense. Laptops are prone to being stolen or lost. Having an encrypted drive ensures your data or our client's data cannot be decoded. For MacOS users, you just need to turn on FileVault.
+Having an encrypted drive is common sense. Laptops are prone to being stolen or lost. Having an encrypted drive ensures your data or our client's data cannot be accessed. For MacOS users, you just need to turn on FileVault.
 
 ### Lock Your Computer
 When you walk away from your desk, always lock your computer. The time it takes to login again is miniscule compared to any type of unauthorized access to your system.
