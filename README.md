@@ -23,6 +23,24 @@ We do a lot of work with WordPress themes and plugins. Some of that work may be 
 
 For WordPress theme development, use [Theme Check](https://wordpress.org/plugins/theme-check/). It will check your theme for everything from bad practices to missing requirements. Additionally, use the [Theme Unit Test Data](https://codex.wordpress.org/Theme_Unit_Test) to import and check all major content types, embeded content, image sizes, etc are styled and handled correctly in your theme.
 
+## Version Control
+We use [git](https://git-scm.com/).
+
+### Repositories Reside Here
+You can find our repos in two places:
+
+- [BitBucket](https://bitbucket.org/brandography/) for private, closed source projects.
+- [GitHub](https://github.com/Brandography) for open source, and a small selection of external, closed source client projects.
+
+You will need Atlassian/BitBucket and GitHub accounts to access all repos. You should [add your SSH public key](https://help.github.com/articles/about-ssh/) to all the services for easy authentication.
+
+### Git Guidelines
+You'll only find a couple rules when it comes to Git:
+1. Never force push (aka yolo) onto develop or master branches.
+2. Only rebase your local history.
+
+Specific Git flows vary by project, but we generally like to have one `develop` branch that contains working, staged code to be deployed, and a `master` branch that contains the code in the production environment.
+
 ## Security
 Security is one of the most important things to get right in software development. We take a common sense approach to securing our software and workspace.
 
